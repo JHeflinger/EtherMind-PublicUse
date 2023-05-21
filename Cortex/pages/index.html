@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="connect-src http://localhost:5000">
+    <title>EtherCortex</title>
+    <link rel="stylesheet" href="../node_modules/apexcharts/dist/apexcharts.css" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="title">ETHERCORTEX</div>
+    <div id="startbtn" onclick="fadeOutAndMoveUp()">SIMULATE</div>
+    <div id="chart"></div>
+    <div id="loader" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>

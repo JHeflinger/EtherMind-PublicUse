@@ -1,0 +1,5 @@
+*.code-workspace
+Data/*
+!Data/getHistoricalData.py
+/Code/__pycache__/
+/Models/
